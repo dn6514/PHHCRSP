@@ -1,0 +1,24 @@
+----------------------------------
+Instances for the PHHCRSP
+----------------------------------
+
+The lines contain the data of each point. 
+For each point includes
+
+	i x y s r1 r2 e l pi w
+
+Where
+i = vertex number
+x = x coordinate
+y = y coordinate
+s = service duration
+r1 = number of caregivers of type 1 required
+r2 = number of caregivers of type 2 required
+e = earliest service start time
+l = latest service start time
+pi = priority factor
+w = prize reduction factor
+
+* REMARKS *
+	- The first point (index 0) is the depot.
+	- The Euclidean distance is used 
